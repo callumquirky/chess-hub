@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import PGNViewer from './components/pgnViewer/pgnviewer'
 
 function App()  {
 
@@ -17,7 +18,7 @@ function App()  {
 
   return (
     <div>
-
+      <PGNViewer />
     </div>
   )
 }
